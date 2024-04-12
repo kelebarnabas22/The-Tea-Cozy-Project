@@ -1,0 +1,172 @@
+/*unversal styles*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    background: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+/*header section styling*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: black;
+}
+
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+/*banner section*/
+.background {
+    width: 1200px;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:69px
+}
+
+.missionstatement {
+    position: absolute;
+    background-color: black;
+    width: 1300px;   
+    text-align: center;
+    top: 50%;
+    color: seashell;
+    
+}
+
+.mission {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#mission-elements {
+    margin-bottom: 10px;
+}
+
+
+/*Tea of the month section*/
+.month {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.month h2 {
+    margin-bottom: 10px;
+}
+
+.month h4 {
+    margin-bottom: 15px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pictures img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 20px;
+}
+
+.secondline {
+    display: flex;
+}
+
+
+/* Locations section*/
+.locations-background {
+    background-image: url(./images/img-locations-background.jpg);
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin: 50px auto 15px auto;
+    opacity: 0.7;
+}
+
+.hely {
+    text-align: center;
+    position: relative;
+    top: 115px;
+}
+
+.areas {
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    
+}
+
+.part {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    background-color: black;
+    width: 300px;
+    position: relative;
+    top: 100px;
+}
+.part p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.part h3 {
+    margin-top: 30px;
+}
+
+
+/*Contacts section*/
+.contacts {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+/*Copyrights sections*/
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
